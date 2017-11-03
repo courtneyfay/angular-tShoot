@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
+	name: string;
+	age: number;
 
   constructor() { }
 
@@ -13,7 +15,7 @@ export class FormComponent implements OnInit {
   }
 
   logForm() {
-  	//console.log(`${this.name} is ${this.age} years old`);
+  	console.log(`${this.name} is ${this.age} years old`);
   }
 
 }

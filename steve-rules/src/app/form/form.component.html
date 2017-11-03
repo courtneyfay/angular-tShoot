@@ -1,5 +1,5 @@
-<form (ngSubmit)="logForm()">
-	<input type="text" name="name" [(ngModel)]="mane">
+<div>
+	<input type="text" name="name" [(ngModel)]="name">
 	<input type="text" [(ngModel)]="age">
-	<input type="submit">
-</form>
+	<input type="submit" (click)="logForm()">
+</div>
